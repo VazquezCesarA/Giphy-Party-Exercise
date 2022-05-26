@@ -21,7 +21,5 @@ document.querySelector("#submitButton").addEventListener("click", (e) => {
   getGif();
 });
 document.querySelector("#dltButton").addEventListener("click", (e) => {
-    console.log(document.querySelector('div'));
     document.querySelector('div').innerHTML = ''; 
 });
-console.log("Let's get this party started!");
